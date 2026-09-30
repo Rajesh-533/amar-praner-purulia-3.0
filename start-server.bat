@@ -1,0 +1,6 @@
+@echo off
+title Amaar Praner Purulia - Localhost Server
+echo Starting Local Server for "Amaar Praner Purulia"...
+echo Opening http://localhost:3000 in your browser...
+node server.js
+pause

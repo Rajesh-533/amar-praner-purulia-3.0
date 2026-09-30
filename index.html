@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amaar Praner Purulia</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Hind+Siliguri:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Header / Navigation Bar (Two-Tier Bubbly Island: No Merging!) -->
+  <header class="site-header">
+    <div class="nav-container">
+      <!-- Top Row: Logo & Controls -->
+      <div class="nav-top-row">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-symbol">🌾</span>
+          <div class="logo-text">
+            <span class="en-title">Amaar Praner Purulia</span>
+            <span class="bn-title">আমার প্রাণের পুরুলিয়া</span>
+          </div>
+        </a>
+
+        <div class="header-actions">
+          <button id="themeToggle" class="icon-btn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button id="presModeBtn" class="pill-btn" title="Toggle Presentation Slide Mode">
+            <i class="fa-solid fa-desktop"></i> <span>Present Mode</span>
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Bottom Row: Dedicated Bubbly Navigation Pills -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link"><i class="fa-solid fa-bullhorn"></i> <span>About</span></a></li>
+          <li><a href="#location" class="nav-link"><i class="fa-solid fa-map-location-dot"></i> <span>Location</span></a></li>
+          <li><a href="#history" class="nav-link"><i class="fa-solid fa-landmark"></i> <span>History</span></a></li>
+          <li><a href="#british" class="nav-link"><i class="fa-solid fa-clock-rotate-left"></i> <span>British Rule Time</span></a></li>
+          <li><a href="#jharbagda" class="nav-link highlight-link"><i class="fa-solid fa-mountain-sun"></i> <span>Jharbagda</span></a></li>
+          <li><a href="#places" class="nav-link"><i class="fa-solid fa-compass"></i> <span>Famous Places</span></a></li>
+          <li><a href="#chhau-dance" class="nav-link"><i class="fa-solid fa-masks-theater"></i> <span>Chhau Dance</span></a></li>
+          <li><a href="#chhau-mask" class="nav-link"><i class="fa-solid fa-mask"></i> <span>Chhau Mask</span></a></li>
+          <li><a href="#freedom-fighters" class="nav-link"><i class="fa-solid fa-award"></i> <span>Freedom Fighters</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="badge-tag">
+        <i class="fa-solid fa-feather-pointed"></i> Purulia District Presentation
+      </div>
+      <h1 class="hero-title">
+        <span class="bangla-accent">আমার প্রাণের পুরুলিয়া</span>
+        <span class="main-heading">Amaar Praner Purulia</span>
+      </h1>
+      <p class="hero-subtitle">
+        "Ranga matir desh" &bull; One of the most beautiful and culturally rich districts in West Bengal
+      </p>
+
+      <div class="hero-badges">
+        <div class="badge-item">
+          <i class="fa-solid fa-mountain"></i>
+          <div>
+            <strong>Ayodhya Hills</strong>
+            <span>Natural Scenary &amp; Treaking</span>
+          </div>
+        </div>
+        <div class="badge-item">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <strong>UNESCO Heritage (2010)</strong>
+            <span>Chhau Dance</span>
+          </div>
+        </div>
+        <div class="badge-item">
+          <i class="fa-solid fa-tag"></i>
+          <div>
+            <strong>GI Registered Handcraft</strong>
+            <span>Chhau Mask of Charida</span>
+          </div>
+        </div>
+        <div class="badge-item">
+          <i class="fa-solid fa-tree"></i>
+          <div>
+            <strong>Jharbagda Village</strong>
+            <span>Over 4 Lakhs Trees Planted</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#about" class="btn btn-primary">
+          <i class="fa-solid fa-play"></i> Start Presentation
+        </a>
+        <a href="#jharbagda" class="btn btn-secondary">
+          <i class="fa-solid fa-leaf"></i> Jharbagda (Our Village)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. About my presentation ! -->
+  <section id="about" class="content-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Introduction</span>
+        <h2 class="section-title">About my presentation !</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="grid-2-col align-center">
+        <div class="text-card glass-card">
+          <div class="card-icon-badge"><i class="fa-solid fa-quote-left"></i></div>
+          <p class="user-statement lead-text">
+            Today i am going to give a presentation on my district "PURULIA". One of the most beautiful and culturally rich districts in westbengal.Purulia is also known as "Ranga matir desh" because of its red soil.
+          </p>
+          <div class="user-statement-meta">
+            <span class="pill-tag"><i class="fa-solid fa-earth-asia"></i> Purulia District</span>
+            <span class="pill-tag"><i class="fa-solid fa-heart text-danger"></i> Ranga matir desh</span>
+          </div>
+        </div>
+
+        <div class="media-showcase-card">
+          <div class="image-frame">
+            <img src="images/palash_purulia.jpg" alt="Ranga matir desh red soil and palash in Purulia" class="zoomable-img showcase-img">
+            <div class="image-caption">
+              <strong>Purulia &bull; "Ranga matir desh"</strong> (Because of its red soil)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. WHERE DOES IT LOCATED ? -->
+  <section id="location" class="content-section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Geography</span>
+        <h2 class="section-title">WHERE DOES IT LOCATED ?</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="grid-2-col align-center">
+        <div class="media-showcase-card">
+          <div class="image-frame">
+            <img src="images/map of purulia.jpeg" alt="Map of Purulia District in West Bengal" class="zoomable-img showcase-img map-img">
+            <div class="image-caption">
+              <strong>Map of Purulia:</strong> Western part of West Bengal
+            </div>
+          </div>
+        </div>
+
+        <div class="text-card glass-card">
+          <div class="card-icon-badge"><i class="fa-solid fa-map-pin"></i></div>
+          <h3>Location of Purulia</h3>
+          <p class="user-statement lead-text">
+            Purulia is located in the western part of westbengal.
+          </p>
+          <div class="user-statement-meta">
+            <span class="pill-tag"><i class="fa-solid fa-compass"></i> Western Part</span>
+            <span class="pill-tag"><i class="fa-solid fa-map"></i> West Bengal</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. HISTORY OF PURULIA : -->
+  <section id="history" class="content-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Ancient Heritage</span>
+        <h2 class="section-title">HISTORY OF PURULIA :</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="ancient-era-banner glass-card">
+        <div class="ancient-icon"><i class="fa-solid fa-gopuram"></i></div>
+        <div class="ancient-text">
+          <p class="user-statement lead-text">
+            According to Jaina Bhagavati-Sutra , it was one of the 16th Mahajanapadas of ancient India and it was also connected with a region called Vajra-Bhumi.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid-2-col" style="margin-top: 2rem;">
+        <div class="history-photo-card glass-card">
+          <img src="images/pakbirra_jain_shrine_of_purulia_02.jpg" alt="Pakbirra Jain heritage of Purulia" class="zoomable-img">
+          <p class="img-caption-small"><strong>Pakbirra:</strong> Ancient Jain Tirthankara colossus &amp; relics in Purulia.</p>
+        </div>
+        <div class="history-photo-card glass-card">
+          <img src="images/deulghata_6.jpg" alt="Deulghata ancient temple" class="zoomable-img">
+          <p class="img-caption-small"><strong>Deulghata:</strong> Ancient stone and terracotta temple ruins connected with the ancient history.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. BRITISH RULE TIME : -->
+  <section id="british" class="content-section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Administrative Evolution</span>
+        <h2 class="section-title">BRITISH RULE TIME :</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <div class="text-card glass-card" style="margin-bottom: 2.5rem;">
+        <div class="card-icon-badge"><i class="fa-solid fa-landmark"></i></div>
+        <p class="user-statement lead-text">
+          During british rule , the area went through several administrative changes. Like In 1833 , a district called "Manbhum" was created .At first, its headquater is at Manbazar .But in 1838,the headquarter was moved to present day Purulia.Later Manbhum became a very large district and included areas that are now part of westbengal,jharkhand .After independence Manbhum was divided in 1956, as a result the present purulia was formed om 1st Nov 1956 as a part of wesrbengal.
+        </p>
+      </div>
+
+      <!-- Timeline Cards -->
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item left">
+          <div class="timeline-dot"><i class="fa-solid fa-landmark"></i></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">1833</span>
+            <h4>Creation of "Manbhum"</h4>
+            <p>In 1833 , a district called "Manbhum" was created .At first, its headquater is at Manbazar .</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-dot"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">1838</span>
+            <h4>Headquarter Moved to Purulia</h4>
+            <p>But in 1838,the headquarter was moved to present day Purulia.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-dot"><i class="fa-solid fa-map"></i></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">Later Period</span>
+            <h4>Large District of Manbhum</h4>
+            <p>Later Manbhum became a very large district and included areas that are now part of westbengal,jharkhand .</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-dot"><i class="fa-solid fa-flag"></i></div>
+          <div class="timeline-content glass-card highlight-border">
+            <span class="timeline-date">1st Nov 1956</span>
+            <h4>Formation of Present Purulia</h4>
+            <p>After independence Manbhum was divided in 1956, as a result the present purulia was formed om 1st Nov 1956 as a part of wesrbengal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. JHARBAGDA(OUR VILLAGE) : -->
+  <section id="jharbagda" class="content-section village-section">
+    <div class="container">
+      <div class="village-header-badge">
+        <i class="fa-solid fa-heart text-danger"></i> Our Village Homeland
+      </div>
+      <h2 class="section-title text-light">JHARBAGDA(OUR VILLAGE) :</h2>
+      <div class="title-divider center light"></div>
+
+      <!-- User Exact Text Card -->
+      <div class="village-text-banner glass-card dark-mode-card">
+        <p class="user-statement lead-text text-light">
+          Our village name is "jharbagda" and there is hill named "Makino-Raghunath hill" . Earlier the hill was mostly rocky and barren. Around 1998 , local villagers with help of a Japan society named "Hissomo forest foundation" planted over 4 lakhs of trees all around the hill. As a result this is now home of wild animals like wild boars,jackals,rabbit and many types of birds.Almost year a heard of elephants come and stay in our forest for some months.
+        </p>
+        <blockquote class="ht-quote">
+          "Hindustan Times also wirte an article on our forest"
+        </blockquote>
+      </div>
+
+      <!-- Photo Showcase for Jharbagda -->
+      <div class="comparison-container glass-card dark-mode-card">
+        <h3 style="text-align: center; color: #fff; margin-bottom: 1.5rem;">
+          <i class="fa-solid fa-images"></i> Photos of Jharbagda &amp; Makino-Raghunath Hill
+        </h3>
+
+        <div class="comparison-tabs">
+          <button class="comp-tab active" data-target="all-photos">
+            <i class="fa-solid fa-border-all"></i> All Village Photos
+          </button>
+          <button class="comp-tab" data-target="now">
+            <i class="fa-solid fa-tree"></i> Jharbagda Now (Lush Green)
+          </button>
+          <button class="comp-tab" data-target="earlier">
+            <i class="fa-solid fa-hill-rockslide"></i> Jharbagda Hill 1998 (Barren)
+          </button>
+          <button class="comp-tab" data-target="elephants">
+            <i class="fa-solid fa-paw"></i> Elephants in Jharbagda Hills
+          </button>
+        </div>
+
+        <div class="comparison-viewport">
+          <!-- All Photos Grid -->
+          <div class="comp-view active" id="view-all-photos">
+            <div class="village-gallery-grid">
+              <div class="village-img-card">
+                <span class="img-badge-top green-badge"><i class="fa-solid fa-tree"></i> Jharbagda Now</span>
+                <img src="images/jharbagda now.jpeg" alt="Jharbagda now lush green trees" class="zoomable-img">
+                <p class="photo-subtext">Over 4 lakhs of trees planted all around the hill.</p>
+              </div>
+
+              <div class="village-img-card">
+                <span class="img-badge-top orange-badge"><i class="fa-solid fa-mountain"></i> Jharbagda Hill 1998</span>
+                <img src="images/jharbagda hiil 1998.jpeg" alt="Jharbagda hill 1998 rocky and barren" class="zoomable-img">
+                <p class="photo-subtext">Earlier the hill was mostly rocky and barren.</p>
+              </div>
+
+              <div class="village-img-card">
+                <span class="img-badge-top blue-badge"><i class="fa-solid fa-paw"></i> Herd of Elephants</span>
+                <img src="images/elephants in jharbagda hills.jpeg" alt="Elephants in Jharbagda hills" class="zoomable-img">
+                <p class="photo-subtext">Almost year a heard of elephants come and stay in our forest for some months.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Jharbagda Now Single View -->
+          <div class="comp-view" id="view-now">
+            <div class="img-box">
+              <img src="images/jharbagda now.jpeg" alt="Jharbagda now lush green trees" class="zoomable-img">
+              <div class="badge-overlay green-badge">
+                <i class="fa-solid fa-check-circle"></i> Jharbagda Now: 4 Lakhs+ Trees Planted
+              </div>
+            </div>
+            <p class="photo-subtext">
+              Local villagers with help of a Japan society named "Hissomo forest foundation" planted over 4 lakhs of trees all around the hill.
+            </p>
+          </div>
+
+          <!-- Jharbagda Earlier Single View -->
+          <div class="comp-view" id="view-earlier">
+            <div class="img-box">
+              <img src="images/jharbagda hiil 1998.jpeg" alt="Jharbagda hill 1998 rocky and barren" class="zoomable-img">
+              <div class="badge-overlay orange-badge">
+                <i class="fa-solid fa-mountain"></i> Jharbagda Hill 1998: Earlier Mostly Rocky &amp; Barren
+              </div>
+            </div>
+            <p class="photo-subtext">
+              Earlier the hill was mostly rocky and barren.
+            </p>
+          </div>
+
+          <!-- Elephants View -->
+          <div class="comp-view" id="view-elephants">
+            <div class="img-box">
+              <img src="images/elephants in jharbagda hills.jpeg" alt="Elephants in Jharbagda hills" class="zoomable-img">
+              <div class="badge-overlay blue-badge">
+                <i class="fa-solid fa-paw"></i> Elephants in Jharbagda Hills
+              </div>
+            </div>
+            <p class="photo-subtext">
+              Almost year a heard of elephants come and stay in our forest for some months.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAMAOUS PLACES OF PURULIA : -->
+  <section id="places" class="content-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Sightseeing &amp; Travel</span>
+        <h2 class="section-title">FAMAOUS PLACES OF PURULIA :</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <!-- User Exact Sentences for Famous Places -->
+      <div class="text-card glass-card" style="margin-bottom: 2.5rem;">
+        <p class="user-statement lead-text">
+          First of all "Ayodhya Hills" ,the most famous tourist places in purulia.This is famous because of the beatifull hills,forest,natural scenary,adventure activites like treaking and rock climbing .And the next place is "Ghar panchakot", this is a historical place related to panchakot kings.
+        </p>
+        <p class="user-statement lead-text" style="margin-top: 1rem;">
+          There are so many places in Purulia like "Delughata","Pakbrirra","Telkiupi".
+        </p>
+        <p class="user-statement lead-text" style="margin-top: 1rem;">
+          There is famous village "chaarida", it is famous because for making chhaou mask. it is a small village near Ayodhya hill.
+        </p>
+      </div>
+
+      <!-- Places Cards Grid using User's Photos -->
+      <div class="places-grid">
+        <!-- Ayodhya Hills 1 -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/ayodha hill purulia.jpeg" alt="Ayodhya Hills Purulia" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-mountain"></i> Ayodhya Hills</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"Ayodhya Hills"</h3>
+            <p class="place-desc">
+              First of all "Ayodhya Hills" ,the most famous tourist places in purulia.This is famous because of the beatifull hills,forest,natural scenary,adventure activites like treaking and rock climbing .
+            </p>
+            <div class="place-tags">
+              <span>Beatifull Hills</span>
+              <span>Treaking</span>
+              <span>Rock Climbing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ayodhya Hills 2 -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/ayodha hill 2.jpeg" alt="Ayodhya Hill View 2" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-tree"></i> Natural Scenary</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">Ayodhya Hills Scenary</h3>
+            <p class="place-desc">
+              Beatifull hills,forest,natural scenary,adventure activites like treaking and rock climbing.
+            </p>
+            <div class="place-tags">
+              <span>Forest</span>
+              <span>Natural Scenary</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ghar panchakot -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/phanchakot.jpeg" alt="Ghar panchakot historical place" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-landmark"></i> Historical Place</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"Ghar panchakot"</h3>
+            <p class="place-desc">
+              And the next place is "Ghar panchakot", this is a historical place related to panchakot kings.
+            </p>
+            <div class="place-tags">
+              <span>Panchakot Kings</span>
+              <span>Historical Place</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chaarida Village -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/charida (mukhos gram).jpeg" alt="Chaarida mukhos gram village" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-palette"></i> Chaarida Village</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"chaarida" Village</h3>
+            <p class="place-desc">
+              There is famous village "chaarida", it is famous because for making chhaou mask. it is a small village near Ayodhya hill.
+            </p>
+            <div class="place-tags">
+              <span>Chhaou Mask</span>
+              <span>Near Ayodhya Hill</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chaarida Masks 2 -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/mukhos gram 2.jpeg" alt="Mukhos gram charida mask shop" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-shop"></i> Mukhos Gram</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">Mukhos Gram (Charida)</h3>
+            <p class="place-desc">
+              It is famous because for making chhaou mask. it is a small village near Ayodhya hill.
+            </p>
+            <div class="place-tags">
+              <span>Mask Making</span>
+              <span>Charida</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chaarida Masks 3 -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/mukhos  gram 3.jpeg" alt="Mukhos gram artisan work" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-hands"></i> Artisans</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"chaarida" Art</h3>
+            <p class="place-desc">
+              Famous village for making chhaou mask near Ayodhya hill.
+            </p>
+            <div class="place-tags">
+              <span>Chhaou Mask Art</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delughata -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/deulghata_6.jpg" alt="Delughata ancient temple ruins" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-gopuram"></i> "Delughata"</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"Delughata"</h3>
+            <p class="place-desc">
+              There are so many places in Purulia like "Delughata","Pakbrirra","Telkiupi".
+            </p>
+            <div class="place-tags">
+              <span>Ancient Deuls</span>
+              <span>Delughata</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pakbrirra -->
+        <div class="place-card glass-card">
+          <div class="place-img-holder">
+            <img src="images/pakbirra_jain_shrine_of_purulia_02.jpg" alt="Pakbrirra Jain Shrine" class="zoomable-img" loading="lazy">
+            <span class="place-category-badge"><i class="fa-solid fa-monument"></i> "Pakbrirra"</span>
+          </div>
+          <div class="place-info">
+            <h3 class="place-title">"Pakbrirra"</h3>
+            <p class="place-desc">
+              There are so many places in Purulia like "Delughata","Pakbrirra","Telkiupi".
+            </p>
+            <div class="place-tags">
+              <span>Ancient Shrine</span>
+              <span>Pakbrirra</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CHHAU DANCE : -->
+  <section id="chhau-dance" class="content-section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Cultural Heritage</span>
+        <h2 class="section-title">CHHAU DANCE :</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <!-- User Exact Sentences for Chhau Dance -->
+      <div class="text-card glass-card" style="margin-bottom: 2.5rem;">
+        <div class="card-icon-badge"><i class="fa-solid fa-masks-theater"></i></div>
+        <p class="user-statement lead-text">
+          Chhau is traditional masked dance . It combines dance,acting,music and strong body movements.The dancers were colourful costumes and beautiful mask.Dhamsa,madal and other traditional instruments are commonly used during performances.Chhau is not just for entertainment , it is an important part of the culture and festivals of purulia.Chhau was inscribed on UNESCO'S Representative list of the intangible cultural heritage of humanity in 2010.
+        </p>
+        <div class="user-statement-meta">
+          <span class="pill-tag"><i class="fa-solid fa-award"></i> UNESCO Heritage 2010</span>
+          <span class="pill-tag"><i class="fa-solid fa-drum"></i> Dhamsa &amp; Madal</span>
+          <span class="pill-tag"><i class="fa-solid fa-vest"></i> Colourful Costumes</span>
+        </div>
+      </div>
+
+      <!-- Chhau Dance Photo Gallery -->
+      <div class="chhau-photos-grid">
+        <div class="chhau-photo-item glass-card">
+          <img src="images/chhau 1.jpeg" alt="Chhau dance performance 1" class="zoomable-img" loading="lazy">
+          <p class="photo-subtext">The dancers were colourful costumes and beautiful mask.</p>
+        </div>
+
+        <div class="chhau-photo-item glass-card">
+          <img src="images/chhau 2.jpeg" alt="Chhau dance performance 2" class="zoomable-img" loading="lazy">
+          <p class="photo-subtext">It combines dance,acting,music and strong body movements.</p>
+        </div>
+
+        <div class="chhau-photo-item glass-card">
+          <img src="images/chhau 3.jpeg" alt="Chhau dance performance 3" class="zoomable-img" loading="lazy">
+          <p class="photo-subtext">Traditional masked dance of Purulia.</p>
+        </div>
+
+        <div class="chhau-photo-item glass-card">
+          <img src="images/chhau dance 4.jpeg" alt="Chhau dance performance 4" class="zoomable-img" loading="lazy">
+          <p class="photo-subtext">Strong body movements and dynamic performance.</p>
+        </div>
+
+        <div class="chhau-photo-item glass-card">
+          <img src="images/chhau dance 5.jpeg" alt="Chhau dance performance 5" class="zoomable-img" loading="lazy">
+          <p class="photo-subtext">An important part of the culture and festivals of purulia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CHAAU MASK: -->
+  <section id="chhau-mask" class="content-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Traditional Handcraft</span>
+        <h2 class="section-title">CHAAU MASK:</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <!-- User Exact Sentences for Chhau Mask -->
+      <div class="text-card glass-card" style="margin-bottom: 2.5rem;">
+        <div class="card-icon-badge"><i class="fa-solid fa-mask"></i></div>
+        <p class="user-statement lead-text">
+          The chhau mask are one of the most special parts of chhau.The whole mask is make by hand , all the tiny design .so it takes lot of time to make.Chhau mask is also a registered Geographical indication handcraft of westbengal.
+        </p>
+        <div class="user-statement-meta">
+          <span class="pill-tag"><i class="fa-solid fa-hands"></i> Make by Hand</span>
+          <span class="pill-tag"><i class="fa-solid fa-certificate"></i> Registered Geographical Indication</span>
+          <span class="pill-tag"><i class="fa-solid fa-clock"></i> Takes Lot of Time</span>
+        </div>
+      </div>
+
+      <!-- Chhau Mask Photos Grid -->
+      <div class="grid-2-col">
+        <div class="mask-photo-card glass-card">
+          <img src="images/chhau mask.jpeg" alt="Handmade Chhau mask with tiny design" class="zoomable-img" loading="lazy">
+          <div class="mask-caption">
+            <strong>The whole mask is make by hand , all the tiny design .so it takes lot of time to make.</strong>
+          </div>
+        </div>
+
+        <div class="mask-photo-card glass-card">
+          <img src="images/chhau mask 2.jpeg" alt="Handcrafted Chhau mask detail" class="zoomable-img" loading="lazy">
+          <div class="mask-caption">
+            <strong>Chhau mask is also a registered Geographical indication handcraft of westbengal.</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FREEDOM FIGHTER OF PURULIA : -->
+  <section id="freedom-fighters" class="content-section bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">Heroes of the Land</span>
+        <h2 class="section-title">FREEDOM FIGHTER OF PURULIA :</h2>
+        <div class="title-divider"></div>
+      </div>
+
+      <!-- User Exact Text for Freedom Fighters -->
+      <div class="text-card glass-card" style="margin-bottom: 2.5rem;">
+        <div class="card-icon-badge"><i class="fa-solid fa-award"></i></div>
+        <p class="user-statement lead-text">
+          There many freedom fighter are from Purulia.Few of them are "Atul chandra","Labanya prabha","Arun chandra".
+        </p>
+      </div>
+
+      <div class="grid-2-col align-center">
+        <!-- Photo from user's folder -->
+        <div class="media-showcase-card">
+          <div class="image-frame">
+            <img src="images/freedom fighter of purulia.jpeg" alt="Freedom fighter of Purulia" class="zoomable-img showcase-img" style="height: auto; max-height: 480px; object-fit: contain; background: #fff;">
+            <div class="image-caption">
+              <strong>Freedom fighter of Purulia:</strong> "Atul chandra","Labanya prabha","Arun chandra"
+            </div>
+          </div>
+        </div>
+
+        <!-- Fighter Tribute Cards -->
+        <div class="fighters-list">
+          <div class="fighter-mini-card glass-card">
+            <div class="mini-avatar"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="mini-info">
+              <h3>"Atul chandra"</h3>
+              <p>Prominent freedom fighter from Purulia and leader of the freedom movement.</p>
+            </div>
+          </div>
+
+          <div class="fighter-mini-card glass-card">
+            <div class="mini-avatar female"><i class="fa-solid fa-user"></i></div>
+            <div class="mini-info">
+              <h3>"Labanya prabha"</h3>
+              <p>Renowned woman freedom fighter of Purulia who fought dedicatedly for independence.</p>
+            </div>
+          </div>
+
+          <div class="fighter-mini-card glass-card">
+            <div class="mini-avatar"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="mini-info">
+              <h3>"Arun chandra"</h3>
+              <p>Valiant freedom fighter and youth organizer from Purulia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Lightbox Modal -->
+  <div id="imageModal" class="image-modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close image">&times;</button>
+      <img src="" alt="" id="modalImg" class="modal-img">
+      <p id="modalCaption" class="modal-caption"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <h3><span class="text-accent">আমার প্রাণের পুরুলিয়া</span> • Amaar Praner Purulia</h3>
+        <p>
+          Today i am going to give a presentation on my district "PURULIA". One of the most beautiful and culturally rich districts in westbengal.Purulia is also known as "Ranga matir desh" because of its red soil.
+        </p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4>Presentation Sections</h4>
+        <ul>
+          <li><a href="#about">About my presentation !</a></li>
+          <li><a href="#location">WHERE DOES IT LOCATED ?</a></li>
+          <li><a href="#history">HISTORY OF PURULIA :</a></li>
+          <li><a href="#british">BRITISH RULE TIME :</a></li>
+          <li><a href="#jharbagda">JHARBAGDA(OUR VILLAGE) :</a></li>
+          <li><a href="#places">FAMAOUS PLACES OF PURULIA :</a></li>
+          <li><a href="#chhau-dance">CHHAU DANCE :</a></li>
+          <li><a href="#chhau-mask">CHAAU MASK:</a></li>
+          <li><a href="#freedom-fighters">FREEDOM FIGHTER OF PURULIA :</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col village-badge-col">
+        <div class="village-seal">
+          <i class="fa-solid fa-tree"></i>
+          <h4>jharbagda (Our Village)</h4>
+          <p>Makino-Raghunath hill &bull; Over 4 lakhs of trees planted</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-row">
+        <p>&copy; Presentation on Purulia District &bull; Amaar Praner Purulia</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i> Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
